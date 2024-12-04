@@ -24,13 +24,17 @@ def checkSafety(report):
 
 with open('Day-2/day_2_input.txt', 'r') as file:
     lines = file.readlines()
-    for line in lines:
-        cleanedLine = line.strip('\n').split()
-        intArray = [int(val) for val in cleanedLine]
-        reports.append(intArray)
+    file.close()
 
-    checkedReports = []
-    for report in reports:
-        checkedReports.append(checkSafety(report))
 
-    print(checkedReports.count(True))
+for line in lines:
+    cleanedLine = line.strip('\n').split()
+    intArray = [int(val) for val in cleanedLine]
+    reports.append(intArray)
+
+checkedReports = []
+for report in reports:
+    checkedReports.append(checkSafety(report))
+
+print(checkedReports.count(True))
+
