@@ -4,7 +4,7 @@ leftColumn = []
 rightColumn = []
 orderedPairs = []
 
-with open('day1_input_file.txt', 'r') as file:
+with open('Day-1/day1_input.txt', 'r') as file:
     lines = file.readlines()
     for line in lines:
         leftColumn.append(line.split()[0])
@@ -13,8 +13,6 @@ with open('day1_input_file.txt', 'r') as file:
     rightColumn.sort()
     for l,r in zip(leftColumn, rightColumn):
         orderedPairs.append((l,r))
-
-    print(orderedPairs)
 
     totalSum = 0
     for tuple in orderedPairs:

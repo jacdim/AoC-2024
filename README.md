@@ -12,15 +12,15 @@ This repository contains my solutions for the Advent of Code 2024 challenges. Ea
 
 ```bash
 📂 AoC-2024/
-├── 📂 Day1/
+├── 📂 Day-1/
 │   ├── day1_a.py  # Solution for Day 1
 │   ├── day1_b.py  # Solution for Day 1
-│   └── day1_input_file.txt  # Input for Day 1
-├── 📂 Day2/
+│   └── day1_input.txt  # Input for Day 1
+├── 📂 Day-2/
 │   ├── day2_a.py  # Solution for Day 1
 │   ├── day2_b.py  # Solution for Day 1
-│   └── day2_input_file.txt  # Input for Day 1
-├── 📂 Day3/
+│   └── day2_input.txt  # Input for Day 1
+├── 📂 Day-3/
 │   └── ...
 └── README.md  # This file
 ```
